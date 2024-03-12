@@ -26,6 +26,11 @@ Ainda falando sobre essa primeira heurística, o status do sistema em fases de u
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/729f74d3-b24d-4f68-944e-4e1b60a02669)
 
+Cada seção da navbar é bem dividida, definindo com exatidão em qual etapa da solução o usuário está inserido, de forma lógica e contínua. Essa divisão fica explícita nos elementos visuais, sendo a página selecionada destacada de azul. 
+
+
+
+
 
 
 
