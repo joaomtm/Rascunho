@@ -28,6 +28,13 @@ Ainda falando sobre essa primeira heurística, o status do sistema em fases de u
 
 Cada seção da navbar é bem dividida, definindo com exatidão em qual etapa da solução o usuário está inserido, de forma lógica e contínua. Essa divisão fica explícita nos elementos visuais, sendo a página selecionada destacada de azul. 
 
+## 2: Correspondência entre o sistema e o mundo real
+
+"O design deve falar a língua dos usuários. Use palavras, frases e conceitos familiares ao usuário, em vez de jargões internos. Siga as convenções do mundo real, fazendo com que as informações apareçam em uma ordem natural e lógica."
+
+
+
+
 
 
 
