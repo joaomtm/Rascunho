@@ -45,7 +45,14 @@ A linguagem não verbal no dashboard também atende de forma completa a heuríst
 
 "Os usuários geralmente executam ações por engano. Eles precisam de uma “saída de emergência” claramente marcada para abandonar a ação indesejada sem ter que passar por um processo extenso."
 
-Com fácil 
+Essa heurística é atendida no dashboard, havendo apenas um ponto de atenção. Primeiro, nas páginas principais do dashboard, a navegação pela navbar é rápida e bem visível (está acima da tela e de forma bem grande), assim, caso o usário clique por erro em outra aba, ele consegue facilmente voltar ou selecionar outra.
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/41c273ad-2eef-4571-a56c-044aca7c8f52)
+
+
+
+
+
 
 
 
