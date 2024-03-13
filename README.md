@@ -34,12 +34,9 @@ Cada seção da navbar é bem dividida, definindo com exatidão em qual etapa da
 
 
 Essa heurística é atendida de forma plena no dahsboard: a linguagem verbal é extremamente clara e adaptada para os profissionais que utilizarão a solução (inicialmente, apenas o CEO da Volkswagen Brasil), utilizando termos e referências diretas ao contexto em que o problema está inserido.
+<br>
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/122e1594-c55e-451a-99c0-40a7aa9ec373)
 
-![image](https://github.com/joaomtm/Rascunho/assets/99208815/fc7ebb8e-fd64-4829-b6cd-05e52387bb33)
-
-![image](https://github.com/joaomtm/Rascunho/assets/99208815/640a46a7-871a-4e11-ae80-e573f1904edb)
-
-![image](https://github.com/joaomtm/Rascunho/assets/99208815/199f5ef4-7509-4e6c-8e45-b52c02cd9d4b)
 
 
 
