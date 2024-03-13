@@ -61,7 +61,27 @@ A mesma solução é aplicada para a página de editar perfil
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/75cff22e-84cc-4f2a-83db-38859a8b5dd9)
 
-Em questão da manipulação dos infográficos
+Em questão da manipulação dos infográficos, o usuário não é penalizado por erros de análise ou "missclicks". Os infográficos gerados no dashboard se modificam rapidamente e podem ser alterados com apenas dois cliques na aba de configurações do gráfico (o menu suspenso).
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/a661ffc7-0ca5-4508-8513-80b375484e0a)
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/b7c8d216-872d-4197-81ae-9c670b710391)
+
+Como citado no início dessa seção, há apenas um ponto de atenção que não atende a respectiva heurística: não há a opção de desdeslogar a conta durante o uso do dashboard. Por enquanto enquanto, há apenas um usuário previsto (o CEO), contudo é possível que o próprio CEO queira ter dois acessos diferentes ou que o próprio projeto escale para outros tipos de usuário. Esse é um problema menor, que afeta minimamente a experiência do usuário, que será obrigado a reiniciar a página ou excluir a memória do navegador para fazer um novo login. A solução desse problema é simples, bastando a criação de um botão para sair na página principal ou na área de perfil.
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/95dc175d-9213-47ef-8c2d-7f14e72c1e0d)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
