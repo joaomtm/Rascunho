@@ -36,6 +36,11 @@ Cada seção da navbar é bem dividida, definindo com exatidão em qual etapa da
 Essa heurística é atendida de forma plena no dahsboard: a linguagem verbal é extremamente clara e adaptada para os profissionais que utilizarão a solução (inicialmente, apenas o CEO da Volkswagen Brasil), utilizando termos e referências diretas ao contexto em que o problema está inserido.
 <br>
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/122e1594-c55e-451a-99c0-40a7aa9ec373)
+<br>
+A linguagem não verbal no dashboard também atende de forma completa a heurística, com símbolos e cores que são de automático entendimento, não deixando dúvidas de nenhuma funcionalidade a que se refere.
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/74430f18-cc32-40c5-af32-55373135aaed)
+
 
 
 
