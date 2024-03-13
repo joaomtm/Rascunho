@@ -49,6 +49,22 @@ Essa heurística é atendida no dashboard, havendo apenas um ponto de atenção.
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/41c273ad-2eef-4571-a56c-044aca7c8f52)
 
+Caso o usuário acesse (intencionalmente ou não) a área de perfil, ele também consegue voltar para a página principal de forma rápida e prática, basta clicar no grande botão "Voltar ao Início" que está acompanhado por uma seta (<-), voltando imediatamente para a página inicial.
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/0e82cbc9-aa5a-4536-9498-cd8523f3805f)
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/acb1a039-a241-44df-bb5b-fb7a74d36f8d)
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/43c1d0e4-129d-4591-be5c-afeac1bfbd38)
+
+A mesma solução é aplicada para a página de editar perfil
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/75cff22e-84cc-4f2a-83db-38859a8b5dd9)
+
+Em questão da manipulação dos infográficos
+
+
+
 
 
 
