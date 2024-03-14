@@ -75,11 +75,29 @@ Como citado no início dessa seção, há apenas um ponto de atenção que não 
 
 "Os usuários não deveriam se perguntar se palavras, situações ou ações diferentes significam a mesma coisa. Siga as convenções da plataforma e do setor."
 
+## 5: Prevenção de Erros
 
+"Boas mensagens de erro são importantes, mas os melhores designs evitam cuidadosamente a ocorrência de problemas. Elimine condições propensas a erros ou verifique-as e apresente aos usuários uma opção de confirmação antes de se comprometerem com a ação."
 
+## 6: Reconhecimento em vez de lembrança
 
+"Minimize a carga de memória do usuário tornando visíveis elementos, ações e opções. O usuário não deveria ter que lembrar informações de uma parte da interface para outra. As informações necessárias para usar o design (por exemplo, rótulos de campos ou itens de menu) devem estar visíveis ou facilmente recuperáveis ​​quando necessário."
 
+## 7: Flexibilidade e Eficiência de Uso
 
+"Atalhos – ocultos para usuários novatos – podem acelerar a interação do usuário experiente, para que o design possa atender tanto usuários inexperientes quanto experientes. Permita que os usuários personalizem ações frequentes."
+
+## 8: Design Estético e Minimalista
+
+"As interfaces não devem conter informações irrelevantes ou raramente necessárias. Cada unidade extra de informação numa interface compete com as unidades de informação relevantes e diminui a sua visibilidade relativa."
+
+## 9: Ajude os usuários a reconhecer, diagnosticar e se recuperar de erros
+
+"As mensagens de erro devem ser expressas em linguagem simples (sem códigos de erro), indicar com precisão o problema e sugerir uma solução de forma construtiva."
+
+## 10: Ajuda e Documentação
+
+"É melhor que o sistema não precise de nenhuma explicação adicional. No entanto, pode ser necessário fornecer documentação para ajudar os usuários a compreender como concluir suas tarefas."
 
 
 
