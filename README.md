@@ -79,6 +79,10 @@ Como citado no início dessa seção, há apenas um ponto de atenção que não 
 
 "Boas mensagens de erro são importantes, mas os melhores designs evitam cuidadosamente a ocorrência de problemas. Elimine condições propensas a erros ou verifique-as e apresente aos usuários uma opção de confirmação antes de se comprometerem com a ação."
 
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/9dc62593-7ac9-490b-babd-3016750514c7)
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/66a0c963-d991-46a8-bcd4-55eea440f135)
+
 ## 6: Reconhecimento em vez de lembrança
 
 "Minimize a carga de memória do usuário tornando visíveis elementos, ações e opções. O usuário não deveria ter que lembrar informações de uma parte da interface para outra. As informações necessárias para usar o design (por exemplo, rótulos de campos ou itens de menu) devem estar visíveis ou facilmente recuperáveis ​​quando necessário."
@@ -98,6 +102,8 @@ Como citado no início dessa seção, há apenas um ponto de atenção que não 
 ## 10: Ajuda e Documentação
 
 "É melhor que o sistema não precise de nenhuma explicação adicional. No entanto, pode ser necessário fornecer documentação para ajudar os usuários a compreender como concluir suas tarefas."
+
+
 
 
 
