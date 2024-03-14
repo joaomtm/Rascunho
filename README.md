@@ -71,6 +71,11 @@ Como citado no início dessa seção, há apenas um ponto de atenção que não 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/95dc175d-9213-47ef-8c2d-7f14e72c1e0d)
 
 
+## 4: Consistência e Padrões
+
+"Os usuários não deveriam se perguntar se palavras, situações ou ações diferentes significam a mesma coisa. Siga as convenções da plataforma e do setor."
+
+
 
 
 
