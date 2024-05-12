@@ -10,9 +10,8 @@
 # <a name="c1"></a>1. Introdução e Contexto
 
 &emsp;&emsp; A simulação de Monte Carlo é uma técnica estatística que se baseia na geração de números aleatórios para modelar fenômenos complexos ou sistemas cujo comportamento não pode ser facilmente previsto por
-métodos analíticos tradicionais. Ela foi originalmente desenvolvida por Stanislaw Ulam, sendo aplicada no campo da física, engenharia, finanças e biologia. A essência dessa técnica é realizar uma grande quantidade de experimentos virtuais,
-onde parâmetros importantes são selecionados aleatoriamente dentro de intervalos conhecidos, permitindo assim a obtenção de estimativas probabilísticas de resultados. Isso proporciona insights valiosos sobre o comportamento de sistemas complexos 
-e a probabilidade de ocorrência de eventos específicos. 
+métodos analíticos tradicionais. Ela foi originalmente desenvolvida por Stanislaw Ulam, sendo aplicada no campo da física, engenharia, finanças e biologia. A essência dessa técnica é realizar uma grande quantidade de experimentos virtuais,onde parâmetros importantes são selecionados aleatoriamente dentro de intervalos conhecidos, permitindo assim a obtenção de estimativas probabilísticas de resultados. Isso proporciona insights valiosos sobre o comportamento de sistemas complexos e a probabilidade de ocorrência de eventos específicos. No atual projeto com a Wizard, o sistema complexo que se deseja analisar é o comportamento dos 
+usuários na Landing Page da Wizard On. Os parâmetros utilizados são 
 
 
 # <a name="c2"></a>2. Metodologia Utilizada
