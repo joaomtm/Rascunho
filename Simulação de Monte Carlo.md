@@ -159,13 +159,30 @@ Analisando o gráfico, podemos observar que uma curva normal foi gerada (no caso
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/fc249d9f-57ad-48ad-ae05-914aa4eaa820)
 
-Esse código começa filtrando os dados em dois grupos, antes e depois de uma data específica que marca mudanças na Landing Page. São calculadas médias e desvios padrão do número de visualizações de página em cada período. Em seguida, uma função é definida para simular o impacto das mudanças nas visualizações de página dos usuários. Essa função gera contribuições aleatórias para UI e velocidade, calcula um ajuste no número de visualizações de página e simula novos números. Os resultados são ajustados para serem positivos e inteiros, e um histograma é criado para visualizar a distribuição das visualizações de página simuladas após as mudanças. Ele compara as médias antes e depois das mudanças, destacando qualquer impacto significativo.
+Esse código começa filtrando os dados em dois grupos, antes e depois de uma data específica que marca mudanças na Landing Page. São calculadas médias e desvios padrão do número de visualizações de página em cada período. Em seguida, uma função é definida para simular o impacto das mudanças nas visualizações de página dos usuários. Essa função gera contribuições aleatórias para UI e velocidade, calcula um ajuste no número de visualizações de página e simula novos números. Os resultados são ajustados para serem positivos e inteiros, e um histograma é criado para visualizar a distribuição das visualizações de página simuladas após as mudanças. Ele compara as médias antes e depois das mudanças, destacando qualquer impacto significativo. Ao total, dez mil simulações são feitas.
 
 - Gráfico gerado:
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/a4f56bfd-dcae-485e-b63c-409ff86fd6a1)
 
 Analisando o gráfico, podemos observar que uma curva normal seria gerada caso a distribuição no 0 não fosse tão concentrada. Nesse histograma, duas linhas são determinadas: uma verde representando a média do número de pageviews depois da mudança (quando a campanha de marketing indicada entrou em vigor) e outra em vermelho indicando a média antes da mudança (quando a campanha de marketing ainda não tinha entrado em vigor). Comparando a duas médias distribuidas no histograma, podemos concluir que o após a campanha, o número de pageviews por usuário diminuiu. Essa informação pode trazer o insight de que o usuários começaram precisaram ver menos páginas  na Landing Page até se tornarem um lead. Nossa suposição é que o UX writing da nova página era mais efetivo e com um  maior call to action, dando a impressão que você conseguiria fazer um relevante curso de inglês pagando (por tempo limitado) apenas por 50% do valor de matrícula. Supomos que esse texto promocional tirou a incerteza de valor que o cliente tinha ( o que o levava antes a buscar informações que agregassem valor ao curso), dando a impressão de oportunidade.
+
+
+- Simulação 6: "Número de Seções Após Mudanças (Sem Outliers)"
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/bd1027e8-f79a-4f3d-81d4-753f23a35206)
+
+Essa sexta simulação segue a mesma estrutura da simulação 4. A única diferença de código é que ela retira os outliers calculados a partir do método IQR, identificador de quartis. 
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/91e25a18-4bf1-4cbb-a269-9988c954ee81)
+
+Proporcionalmente, a diferença da média antes e depois é semelhante daquela gerada na simulação 4. Assim, as conclusões e insights permanecem os mesmos, apenas reforçando as médias geradas pelo modelo.
+
+
+
+
+
+
+
 
 
 
