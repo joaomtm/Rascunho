@@ -2,7 +2,7 @@
 
 [1. Introdução e Contexto](#c1)
 
-[2. Setup (Bibliotecas e Impotação de Dados)](#c2)
+[2. Setup (Bibliotecas e Importação de Dados)](#c2)
 
 [3. Simulações de Monte Carlo](#c3)
 
@@ -13,29 +13,29 @@
 
 &emsp;&emsp; A simulação de Monte Carlo é uma técnica estatística que se baseia na geração de números aleatórios para modelar fenômenos complexos ou sistemas cujo comportamento não pode ser facilmente previsto por
 métodos analíticos tradicionais. Ela foi originalmente desenvolvida pelo matemático Stanislaw Ulam, tendo aplicações no campo da física, engenharia, finanças e biologia. A essência dessa técnica é realizar uma grande quantidade de experimentos virtuais,onde parâmetros importantes são selecionados aleatoriamente dentro de intervalos conhecidos, permitindo assim a obtenção de estimativas probabilísticas de resultados. Isso proporciona insights valiosos sobre o comportamento de sistemas complexos e a probabilidade de ocorrência de eventos específicos. No atual projeto com a Wizard, o sistema complexo que se deseja analisar é o comportamento dos 
-usuários na Landing Page da Wizard On. Os parâmetros utilizados são definidos a partir dos dados disponiblizados pela própria Wizard. Nesse documento será detalhado o desenvolvimento das simulações de Monte Carlo, incluindo a construção precisa dos modelos, a escolha dos parâmetros e a execução das iterações. Além disso, serão analisados os resultados gerados pela simulação e suas implicações para otimização da Landing Page. As simulações foram feitas em dois arquivos python (.ipynb), por conterem a mesma estrutura básica, eles serão detalhados de forma única nesse documento. 
+usuários na Landing Page da Wizard On. Os parâmetros utilizados são definidos a partir dos dados disponibilizados pela própria Wizard. Nesse documento será detalhado o desenvolvimento das simulações de Monte Carlo, incluindo a construção precisa dos modelos, a escolha dos parâmetros e a execução das iterações. Além disso, serão analisados os resultados gerados pela simulação e suas implicações para otimização da Landing Page. As simulações foram feitas em dois arquivos python (.ipynb), por conterem a mesma estrutura básica, eles serão detalhados de forma única nesse documento. 
 
 
-# <a name="c2"></a>2. Setup (Bibliotecas e Impotação de Dados)
+# <a name="c2"></a>2. Setup (Bibliotecas e Importação de Dados)
 
 - Bibliotecas
   
   ![image](https://github.com/joaomtm/Rascunho/assets/99208815/38dcb6c1-d6f5-475b-8c2f-66550a897159)
 
-O Pandas é a principal biblioteca análise de dados em Python, oferecendo estruturas como o DataFrame, que simplificam a manipulação de dados tabulares.O Plotly Express é uma ferramenta de alto nível que facilita a criação rápida de gráficos interativos, tornando a visualização de dados complexos mais acessível. O NumPy, ele desempenha um papel fundamental na computação numérica, fornecendo suporte para arrays multidimensionais e operações matemáticas eficientes. O Matplotlib.pyplot é uma biblioteca para visualização estática de dados em Python, oferecendo uma variedade de gráficos. Essas biblotecas servirão de apoio à Simulação de Monte Carlo, disponibilizando dados, ajudando na construção de modelos e na visualização de resultados.
+O Pandas é a principal biblioteca análise de dados em Python, oferecendo estruturas como o DataFrame, que simplificam a manipulação de dados tabulares.O Plotly Express é uma ferramenta de alto nível que facilita a criação rápida de gráficos interativos, tornando a visualização de dados complexos mais acessível. O NumPy, ele desempenha um papel fundamental na computação numérica, fornecendo suporte para arrays multidimensionais e operações matemáticas eficientes. O Matplotlib.pyplot é uma biblioteca para visualização estática de dados em Python, oferecendo uma variedade de gráficos. Essas bibliotecas servirão de apoio à Simulação de Monte Carlo, disponibilizando dados, ajudando na construção de modelos e na visualização de resultados.
 
 - Importação de Dados
   
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/3665890c-d721-4b97-a9e5-3b73906619a2)
 
 Os dados são importados pelo método pandas, lendo diretamente um csv armazenado no Google Drive.
-O dado em questão é o hubspot de CRM disponibilizado pela Wizard, dando detalhes específicos sobre o comportamento do usuário na landing page, sua características e jornada até se tornar um lead. Ao total, a tabela contém 46 colunas e mais de 52 mil linhas.
+O dado em questão é o hubspot de CRM disponibilizado pela Wizard, dando detalhes específicos sobre o comportamento do usuário na landing page, sua características e jornada até se tornar um lead. No total, a tabela contém 46 colunas e mais de 52 mil linhas.
 
 Para a construção das simulações 4 colunas foram utilizadas: Became a Lead Date (registra a data em que um visitante se tornou um lead), Number of Sessions (indica quantas vezes um visitante acessou o site em um determinado período.), Number of Pageviews (contabiliza o total de visualizações de página durante as sessões dos visitantes) e Number of Form Submissions (registra quantas vezes os formulários do site foram preenchidos e enviados pelos visitantes).
 
 Essas quatro colunas foram selecionadas entre as 42 disponíveis, levando em consideração o objetivo central do projeto: aumentar a taxa de conversão de leads. Assim, selecionamos as colunas que se referem diretamente às datas da conversão de lead (Became a Lead Date), o número de leads convertidos (Number of Form Submissions) e características de uso e comportamento desse lead (Number of Sessions e Number of Pageviews). Os dados dessas colunas são ideais para a definição  de variáreis na Simulação de Monte Carlo, sendo extremamente quantitativos os dados das três últimas colunas, o que permite desenvolver comparações minuciosas e análises temporais. 
 
-As outras colunas não foram utilizadas para o desenvolvimento da simulações por serem voltadas  para uma área de marketing avançada, fugindo do escopo do projeto (ex: Google ad click id). Outras colunas também aumentavam demais a granularidade das informações e não contribuiam para a análise quantitativa dos dados (ex: IP City).
+As outras colunas não foram utilizadas para o desenvolvimento das simulações por serem voltadas  para uma área de marketing avançada, fugindo do escopo do projeto (ex: Google ad click id). Outras colunas também aumentavam demais a granularidade das informações e não contribuiam para a análise quantitativa dos dados (ex: IP City).
 
 # <a name="c3"></a>3. Simulações de Monte Carlo
 ## Simulações Macro
@@ -64,11 +64,11 @@ O gráfico resultante mostra a distribuição dos formulários submetidos, desta
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/8779ce8a-dfb6-4e7e-b837-4556f1723a2a)
 
-Este código realiza a simulação de Monte Carlo em si. Primeiro, define-se uma função simulacao(). Em seguida, cria-se um array das possbilidades e outra array das probabilidades, associadas a cada valor da array anterior. Depois, define-se o número de simulações desejadas (no caso, serão feitas 100 simulações)
+Este código realiza a simulação de Monte Carlo em si. Primeiro, define-se uma função simulacao(). Em seguida, cria-se um array das possibilidades e outra array das probabilidades, associadas a cada valor da array anterior. Depois, define-se o número de simulações desejadas (no caso, serão feitas 100 simulações)
 
 Dentro de um loop, para cada simulação, uma amostra é retirada aleatoriamente do array com base nas probabilidades especificadas. A função simulacao() é então chamada com essa amostra como argumento, e o resultado é armazenado em uma lista de resultados de simulação.
 
-Por fim, um histograma é criado com base nos resultados das simulação.
+Por fim, um histograma é criado com base nos resultados da simulação.
 
 - Gráficos gerados: 
 
@@ -96,22 +96,44 @@ O código gera um histograma das visualizações de página, excluindo outliers.
 
 O código realiza simulações de Monte Carlo com base em um conjunto de probabilidades associadas às probabilidades do número de pageviews, gerando um histograma. No total, 100 simulações são feitas.
 
+- Gráficos gerados:
+
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/a8f1ca5f-23b9-426a-9961-08ca538feacf)
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/fdf81446-9241-4d6e-9b37-1b883b1f6869)
 
-Analisando e comparando os gráficos gerados, podemos observar que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições. Fazendo uma análise, podemos concluir que o usário valoriza na hora de se inscrever no curso (se tornar um lead) explorar a página em questão e consumir seu conteúdo, mas muito pouco, limitando seu pageview a dois. Assim, é possível concluir que para uma melhor conversão de leads, uma boa estratégia seria  desenvolver uma página não muito longa e com todas as informações sendo apresentadas de forma compilada, assim, o usuário vizualizará todas as informações essensiais que desejamos e que o tornam um lead.
+Analisando e comparando os gráficos gerados, podemos observar que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições. Fazendo uma análise, podemos concluir que o usuário valoriza na hora de se inscrever no curso (se tornar um lead) explorar a página em questão e consumir seu conteúdo, mas muito pouco, limitando seu pageview a dois. Assim, é possível concluir que para uma melhor conversão de leads, uma boa estratégia seria  desenvolver uma página não muito longa e com todas as informações sendo apresentadas de forma compilada, assim, o usuário ira ver todas as informações essensiais que desejamos e que o tornam um lead.
 
 
 - Simulação 3: Coluna "Number of Sessions"
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/17868d7d-794c-4ef0-a98f-d47aa729b3a3)
 
-Essa seção do código, assim como nas simulações anteriores, irá dividir a coluna referente a data em duas seções, calculando em cada um delas o valor mínimo e valor máximo. Assim, é possível identificar a existência de outliers (no caso, o 289  em número de seções antes).
+Essa seção do código, assim como nas simulações anteriores, irá dividir a coluna referente a data em duas seções, calculando em cada uma delas o valor mínimo e valor máximo. Assim, é possível identificar a existência de outliers (no caso, o 289  em número de seções antes).
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/abe3ebdd-a8d7-4174-aae0-92c98669ab78)
 
-Essa terceira célula da simulação ira fazer o calculo dos outilers para que eles sejam retirados dos dados da simulação. O método é bem simples, fazendo o cálculo dos quartis pelo IQR para que os extremos sejam removidos.
+Essa terceira célula da simulação ira construir uma função que calcula os outliers para que eles sejam retirados dos dados da simulação. O método é bem simples, fazendo o cálculo dos quartis pelo IQR para que os extremos sejam removidos.
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/fe9a4ca8-4633-4ae4-9020-ec72ff513fa8)
+
+Esse código gera um histograma para visualizar a distribuição do número de sessões dos usuários, excluindo os outliers. 
+
+O gráfico resultante mostra a distribuição dos número de seções, destacando a proporção de dados em cada intervalo.
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/26543dfd-3bf9-4cf2-8408-f896260d80fb)
+
+O código realiza simulações de Monte Carlo com base em um conjunto de probabilidades (61%, 27% e 12%) . Ele gera um histograma dos resultados das simulações, mostrando a frequência de ocorrência de cada um dos três resultados. No total, 100 simulações são realizadas
+
+- Gráficos gerados:
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/5b788b78-4050-4b6e-a0cf-35405603e0b6)
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/022e8fb3-4c53-485e-82ab-7a48b76ad67b)
+
+Analisando e comparando os gráficos gerados, podemos observar que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições. Fazendo uma análise, podemos observar que um número relevante de usuários visitou o site mais de uma vez antes de se tornar um lead (quase 40%). Essa informação permite inferir que o usuário, antes de fazer sua inscrição, fica receoso ou pensativo, a ponto de sair do site para pesquisar outros cursos oferecidos pelo mercado ou até mesmo pensar mais um pouco sobre participar do curso. Nesse cenário, muitos leads podem ter sido perdidos ao não sentirem um senso de urgência ou escassez do serviço oferecido, um aspecto que poderá ser desenvolvido nas próximas telas B.
+
+
 
 
 
