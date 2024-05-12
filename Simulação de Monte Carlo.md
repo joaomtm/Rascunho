@@ -14,11 +14,13 @@ métodos analíticos tradicionais. Ela foi originalmente desenvolvida pelo matem
 usuários na Landing Page da Wizard On. Os parâmetros utilizados são definidos a partir dos dados disponiblizados pela própria Wizard (vistos na análise preliminar desse mesmo projeto). Nesse documento será detalhado o desenvolvimento das simulações de Monte Carlo, incluindo a construção precisa dos modelos, a escolha dos parâmetros e a execução das iterações. Além disso, serão analisados os resultados gerados pela simulação e suas implicações para otimização da Landing Page. As simulações foram feitas em dois arquivos python (.ipynb), por conterem a mesma estrutura básica, eles serão detalhados de forma única nesse documento. 
 
 
-# <a name="c2"></a>2. Setup de Biblioteca e Dados 
+# <a name="c2"></a>2. Setup (Biblioteca e Dados)
 
-&emsp;&emsp; Para este projeto, utilizamos a metodologia HEART. Mais detalhes podem ser encontrados nos seguintes documentos:
+- Bibliotecas
+  ![image](https://github.com/joaomtm/Rascunho/assets/99208815/38dcb6c1-d6f5-475b-8c2f-66550a897159)
 
-- [Aplicação da Metodologia HEART e GSM](https://github.com/Inteli-College/2024-1B-T04-SI10-G02/blob/develop/document/Sprint%2001/Grupo%202%20-%20HEART%20%2B%20GSM.pdf)
+  
+
 
 - [Documentação do Framework HEART para WizardOn](https://github.com/Inteli-College/2024-1B-T04-SI10-G02/blob/develop/document/Sprint%2001/HEART.md)
 
