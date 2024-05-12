@@ -103,7 +103,15 @@ O código realiza simulações de Monte Carlo com base em um conjunto de probabi
 Analisando e comparando os gráficos gerados, podemos observar que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições. Fazendo uma análise, podemos concluir que o usário valoriza na hora de se inscrever no curso (se tornar um lead) explorar a página em questão e consumir seu conteúdo, mas muito pouco, limitando seu pageview a dois. Assim, é possível concluir que para uma melhor conversão de leads, uma boa estratégia seria  desenvolver uma página não muito longa e com todas as informações sendo apresentadas de forma compilada, assim, o usuário vizualizará todas as informações essensiais que desejamos e que o tornam um lead.
 
 
-- Simulação 3: Coluna "Number of Pageviews"
+- Simulação 3: Coluna "Number of Sessions"
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/17868d7d-794c-4ef0-a98f-d47aa729b3a3)
+
+Essa seção do código, assim como nas simulações anteriores, irá dividir a coluna referente a data em duas seções, calculando em cada um delas o valor mínimo e valor máximo. Assim, é possível identificar a existência de outliers (no caso, o 289  em número de seções antes).
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/abe3ebdd-a8d7-4174-aae0-92c98669ab78)
+
+Essa terceira célula da simulação ira fazer o calculo dos outilers para que eles sejam retirados dos dados da simulação. O método é bem simples, fazendo o cálculo dos quartis pelo IQR para que os extremos sejam removidos.
 
 
 
