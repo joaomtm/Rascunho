@@ -134,8 +134,9 @@ O código realiza simulações de Monte Carlo com base em um conjunto de probabi
 Analisando e comparando os gráficos gerados, podemos observar que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições. Fazendo uma análise, podemos observar que um número relevante de usuários visitou o site mais de uma vez antes de se tornar um lead (quase 40%). Essa informação permite inferir que o usuário, antes de fazer sua inscrição, fica receoso ou pensativo, a ponto de sair do site para pesquisar outros cursos oferecidos pelo mercado ou até mesmo pensar mais um pouco sobre participar do curso. Nesse cenário, muitos leads podem ter sido perdidos ao não sentirem um senso de urgência ou escassez do serviço oferecido, um aspecto que poderá ser desenvolvido nas próximas telas B.
 
 
+## Simulações por Período
 
-
+As próximas simulações realizadas são feitas em um um período de tempo específico. A data que marca o período é o dia 24/07/2023 ("2023-07-24"), referente a uma das campanhas de marketing da Wizard On que oferecia 50% de desconto na matrícula. O objetivo é analisar o comportamento geral dos usuários na Landing Page como um todo e identificar padrões ou tendências que possam influenciar a conversão de leads.
 
 
 
