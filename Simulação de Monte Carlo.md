@@ -46,6 +46,10 @@ As primeiras simulações realizadas são feitas em um escopo macro, não consid
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/7bcff987-8549-4922-848e-7f675eec1158)
 
+Essa primeira parte do código realiza pré-processamento e análise de um DataFrame df com dados de leads da Wizard. Primeiro, converte a coluna 'Became a Lead Date' para o formato datetime. Em seguida, divide os dados em duas partes com base na data '2024-04-18'. Calcula o maior e o menor número de formulários submetidos antes e depois dessa data. A partir desses dados, é possível observar que existem casos de envio de mais de um formulário, sendo que o primeiro período de tempo contém um grande outlier (401).
+
+
+
 
 
 
