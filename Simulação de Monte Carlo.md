@@ -27,7 +27,7 @@ O Pandas é a principal biblioteca análise de dados em Python, oferecendo estru
 Os dados são importados pelo método pandas, lendo diretamente um csv armazenado no Google Drive.
 O dado em questão é o hubspot disponibilizado pela Wizard, dando detalhes específicos sobre o comportamento do usuário na landing page na sua jornada de se tornar um lead. Ao total, a tabela contém 46 colunas e cerca de 52 mil linhas.
 
-
+Para a construção das simulações 4 colunas 
 
 
 
