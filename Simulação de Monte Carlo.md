@@ -100,10 +100,10 @@ O código realiza simulações de Monte Carlo com base em um conjunto de probabi
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/fdf81446-9241-4d6e-9b37-1b883b1f6869)
 
-A observação dos gráficos gerados revela que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições. Fazendo uma análise, podemos concluir que o usário valoriza na hora de se inscrever no curso (se tornar um lead), explorar a página em questão e consumir o conteúdo, mas muito pouco, limitando seu pageview a dois. Assim, é possível concluir que para uma melhor conversão de leads, uma boa estratégia seria  desenvolver uma página não muito longa e com todas as informação de forma compilada, para que o usuário consiga vizualizar as informações nas primeiros seções de uso da página.
+Analisando e comparando os gráficos gerados, podemos observar que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições. Fazendo uma análise, podemos concluir que o usário valoriza na hora de se inscrever no curso (se tornar um lead) explorar a página em questão e consumir seu conteúdo, mas muito pouco, limitando seu pageview a dois. Assim, é possível concluir que para uma melhor conversão de leads, uma boa estratégia seria  desenvolver uma página não muito longa e com todas as informações sendo apresentadas de forma compilada, assim, o usuário vizualizará todas as informações essensiais que desejamos e que o tornam um lead.
 
 
-- Simulação 2: Coluna "Number of Pageviews"
+- Simulação 3: Coluna "Number of Pageviews"
 
 
 
