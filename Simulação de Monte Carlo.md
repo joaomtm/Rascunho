@@ -46,7 +46,23 @@ As primeiras simulações realizadas são feitas em um escopo macro, não consid
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/7bcff987-8549-4922-848e-7f675eec1158)
 
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/81e650c5-6dc1-416c-9827-cb74c92d0221)
+
 Essa primeira parte do código realiza pré-processamento e análise de um DataFrame df com dados de leads da Wizard. Primeiro, converte a coluna 'Became a Lead Date' para o formato datetime. Em seguida, divide os dados em duas partes com base na data '2024-04-18'. Calcula o maior e o menor número de formulários submetidos antes e depois dessa data. A partir desses dados, é possível observar que existem casos de envio de mais de um formulário, sendo que o primeiro período de tempo contém um grande outlier (401).
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/6864c368-decf-4d36-9ed0-566c91810969)
+
+Esse código define uma função chamada remove_outliers que remove outliers de um conjunto de dados usando a técnica do intervalo interquartil (IQR). Primeiro, calcula os quartis Q1 e Q3 e, em seguida, calcula o IQR. Com base nesses valores, determina os limites inferior e superior para identificar outliers. Em seguida, filtra os dados para manter apenas aqueles que estão dentro desse intervalo. A função retorna os dados sem outliers.Depois, o código aplica essa função aos dados de formulários submetidos antes e depois de uma determinada data, armazenando os resultados em duas variáveis separadas. Em seguida, combina esses resultados em um único conjunto de dados, removendo outliers de todos os dados de formulários submetidos.
+
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/892792b1-f96a-4175-b625-5d9eebfa876c)
+
+
+
+
+
+
+
 
 
 
