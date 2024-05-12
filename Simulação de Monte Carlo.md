@@ -103,6 +103,8 @@ O código realiza simulações de Monte Carlo com base em um conjunto de probabi
 A observação dos gráficos gerados revela que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições. Fazendo uma análise, podemos concluir que o usário valoriza na hora de se inscrever no curso (se tornar um lead), explorar a página em questão e consumir o conteúdo, mas muito pouco, limitando seu pageview a dois. Assim, é possível concluir que para uma melhor conversão de leads, uma boa estratégia seria  desenvolver uma página não muito longa e com todas as informação de forma compilada, para que o usuário consiga vizualizar as informações nas primeiros seções de uso da página.
 
 
+- Simulação 2: Coluna "Number of Pageviews"
+
 
 
 
