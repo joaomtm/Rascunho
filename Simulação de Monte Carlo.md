@@ -86,7 +86,28 @@ Este trecho de código calcula o maior e o menor valor do número de visualizaç
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/cac9842d-d662-4ac0-bfe3-15d48cb1e92d)
 
+O código remove outliers dos dados de visualizações de página (aplicado na simulação anterior)
+
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/f6132cdb-211d-4459-9d05-b14a904ef428)
+
+O código gera um histograma das visualizações de página, excluindo outliers. Ele calcula o histograma dos dados sem outliers e cria um gráfico de barras para mostrar a distribuição das visualizações de página em relação à porcentagem de ocorrência em cada intervalo.
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/f7e65a8f-8387-4906-a166-74c967a3d352)
+
+O código realiza simulações de Monte Carlo com base em um conjunto de probabilidades associadas às probabilidades do número de pageviews, gerando um histograma. No total, 100 simulações são feitas.
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/a8f1ca5f-23b9-426a-9961-08ca538feacf)
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/fdf81446-9241-4d6e-9b37-1b883b1f6869)
+
+
+
+
+
+
+
+
+
 
 
 
