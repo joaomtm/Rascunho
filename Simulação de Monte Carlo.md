@@ -2,7 +2,9 @@
 
 [1. Introdução e Contexto](#c1)
 
-[2. Metodologia Utilizada](#c2)
+[2. Setup (Bibliotecas e Impotação de Dados)](#c2)
+
+[2. Simulações de Monte Carlo](#c3)
 
 <br>
 
@@ -27,7 +29,7 @@ O Pandas é a principal biblioteca análise de dados em Python, oferecendo estru
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/3665890c-d721-4b97-a9e5-3b73906619a2)
 
 Os dados são importados pelo método pandas, lendo diretamente um csv armazenado no Google Drive.
-O dado em questão é o hubspot disponibilizado pela Wizard, dando detalhes específicos sobre o comportamento do usuário na landing page na sua jornada de se tornar um lead. Ao total, a tabela contém 46 colunas e cerca de 52 mil linhas.
+O dado em questão é o hubspot disponibilizado pela Wizard, dando detalhes específicos sobre o comportamento do usuário na landing page, sua características e jornada até se tornar um lead. Ao total, a tabela contém 46 colunas e cerca de 52 mil linhas.
 
 Para a construção das simulações 4 colunas foram utilizadas: Became a Lead Date (registra a data em que um visitante se tornou um lead), Number of Sessions (indica quantas vezes um visitante acessou o site em um determinado período.), Number of Pageviews (contabiliza o total de visualizações de página durante as sessões dos visitantes) e Number of Form Submissions (registra quantas vezes os formulários do site foram preenchidos e enviados pelos visitantes).
 
@@ -35,8 +37,8 @@ Essas quatro colunas foram selecionadas entre as 42 disponíveis, levando em con
 
 As outras colunas não foram utilizadas para o desenvolvimento da simulações por serem voltadas  para uma área de marketing avançada, fugindo do escopo do projeto (ex: Google ad click id). Outras colunas também aumentavam demais a granularidade das informações e não contribuiam para a análise quantitativa dos dados (ex: IP City).
 
-
-
+# <a name="c3"></a>3. Simulações de Monte Carlo
+- Simulações Macro
 
 
 
