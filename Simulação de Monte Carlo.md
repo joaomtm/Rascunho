@@ -38,7 +38,20 @@ Essas quatro colunas foram selecionadas entre as 42 disponíveis, levando em con
 As outras colunas não foram utilizadas para o desenvolvimento da simulações por serem voltadas  para uma área de marketing avançada, fugindo do escopo do projeto (ex: Google ad click id). Outras colunas também aumentavam demais a granularidade das informações e não contribuiam para a análise quantitativa dos dados (ex: IP City).
 
 # <a name="c3"></a>3. Simulações de Monte Carlo
-- Simulações Macro
+## Simulações Macro
+
+As primeiras simulações realizadas são feitas em um escopo macro, não considerando um período de campanha específico, mas sim de todos os anos. O objetivo é analisar o comportamento geral dos usuários na Landing Page como um todo e identificar padrões ou tendências que possam influenciar a conversão de leads. Essas simulações ajudarão a entender melhor o contexto geral e a direcionar análises mais detalhadas.
+
+- Simulação 1: "Coluna "Number of Form Submissions"
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/7bcff987-8549-4922-848e-7f675eec1158)
+
+
+
+
+ 
+
+
 
 
 
