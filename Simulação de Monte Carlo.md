@@ -144,7 +144,34 @@ As próximas simulações realizadas são feitas em um um período de tempo espe
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/da6133f0-68f5-4f7d-90f7-e8205652e49a)
 
 
-Este trecho de código começa filtrando os dados em dois grupos, antes e depois da data específica que marca mudanças na Landing Page. São calculadas médias e desvios padrão do número de sessões em cada período. Em seguida, uma função é definida para simular o impacto das mudanças nas sessões dos usuários. Essa função gera contribuições aleatórias para UI e velocidade, calcula um ajuste no número de sessões e simula novos números de sessões. Os resultados são ajustados para serem positivos e inteiros, e um histograma é criado para visualizar a distribuição dos números de sessões simuladas após as mudanças. Ele compara as médias antes e depois das mudanças, destacando qualquer impacto significativo. Analisando 
+Este trecho de código começa filtrando os dados em dois grupos, antes e depois da data específica que marca mudanças na Landing Page. São calculadas médias e desvios padrão do número de sessões em cada período. Em seguida, uma função é definida para simular o impacto das mudanças nas sessões dos usuários. Essa função gera contribuições aleatórias para UI e velocidade, calcula um ajuste no número de sessões e simula novos números de sessões. Os resultados são ajustados para serem positivos e inteiros, e um histograma é criado para visualizar a distribuição dos números de sessões simuladas após as mudanças. Ele compara as médias antes e depois das mudanças, destacando qualquer impacto significativo. Ao total dez mil simulações são feitas
+
+- Gráfico gerado:
+  
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/b7796ef9-4448-41bd-b503-523616b918a3)
+
+Analisando o gráfico, podemos observar que uma curva normal foi gerada (no caso, apenas nos eixos positivos). Nesse histograma, duas linhas são determinadas: uma verde representando a média do número de seções depois da mudança (quando a campanha de marketing indicada entrou em vigor) e outra em vermelho indicando a média antes da mudança (quando a campanha de marketing ainda não tinha entrado em vigor). Comparando a duas médias distribuidas no histograma, podemos concluir que o após a campanha, o número de seções por usuário diminuiu. Essa informação pode trazer o insight de que o usuários começaram a visitar menos vezes a Landing Page até se tornarem um lead, ou seja, estão se convencendo em menos visitas a se increver no curso da Wizard On. Nossa suposição é que a oferta dessa campanha (de 50% de desconto) foi muito mais atrativa para o cliente, fazendo essa conversão em menos visitas ao site (visitas esssas qie aumentam quando o usuário está em dúvida e indecisão).
+
+
+- Simulação 5: "Número de Pageviews Após Mudanças"
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/c11a2943-5d36-49c7-b194-1fcfd95ccc2d)
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/fc249d9f-57ad-48ad-ae05-914aa4eaa820)
+
+Esse código começa filtrando os dados em dois grupos, antes e depois de uma data específica que marca mudanças na Landing Page. São calculadas médias e desvios padrão do número de visualizações de página em cada período. Em seguida, uma função é definida para simular o impacto das mudanças nas visualizações de página dos usuários. Essa função gera contribuições aleatórias para UI e velocidade, calcula um ajuste no número de visualizações de página e simula novos números. Os resultados são ajustados para serem positivos e inteiros, e um histograma é criado para visualizar a distribuição das visualizações de página simuladas após as mudanças. Ele compara as médias antes e depois das mudanças, destacando qualquer impacto significativo.
+
+- Gráfico gerado:
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/a4f56bfd-dcae-485e-b63c-409ff86fd6a1)
+
+Analisando o gráfico, podemos observar que uma curva normal seria gerada caso a distribuição no 0 não fosse tão concentrada. Nesse histograma, duas linhas são determinadas: uma verde representando a média do número de pageviews depois da mudança (quando a campanha de marketing indicada entrou em vigor) e outra em vermelho indicando a média antes da mudança (quando a campanha de marketing ainda não tinha entrado em vigor). Comparando a duas médias distribuidas no histograma, podemos concluir que o após a campanha, o número de pageviews por usuário diminuiu. Essa informação pode trazer o insight de que o usuários começaram precisaram ver menos páginas  na Landing Page até se tornarem um lead. Nossa suposição é que o UX writing da nova página era mais efetivo e com um  maior call to action, dando a impressão que você conseguiria fazer um relevante curso de inglês pagando (por tempo limitado) apenas por 50% do valor de matrícula. Supomos que esse texto promocional tirou a incerteza de valor que o cliente tinha ( o que o levava antes a buscar informações que agregassem valor ao curso), dando a impressão de oportunidade.
+
+
+
+
+
+
 
 
 
