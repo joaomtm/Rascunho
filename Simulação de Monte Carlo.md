@@ -136,11 +136,7 @@ Analisando e comparando os gráficos gerados, podemos observar que a distribuiç
 
 ## Simulações por Período
 
-As próximas simulações realizadas são feitas em um um período de tempo específico. A data que marca o período é o dia 24/07/2023 ("2023-07-24"), referente a uma das campanhas de marketing da Wizard On que oferecia 50% de desconto na matrícula. O objetivo é analisar o comportamento geral dos usuários na Landing Page como um todo e identificar padrões ou tendências que possam influenciar a conversão de leads.
-
-
-
-
+As próximas simulações realizadas são feitas em um um período de tempo específico. A data que marca o período é o dia 24/07/2023 ("2023-07-24"), referente a uma das campanhas de marketing da Wizard On que oferecia 50% de desconto na matrícula. O objetivo é analisar o impacto que o formato da landing page teve na conversão de leads durante o período, compreendendo o comportamento dos usuários. Ao fazer essa análise, será possível desenvolver insights e propostas para uma nova Landing Page mais otimizada (teste B).
 
 
 
