@@ -58,6 +58,38 @@ Esse código define uma função chamada remove_outliers que remove outliers de 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/892792b1-f96a-4175-b625-5d9eebfa876c)
 
 
+Esse código gera um histograma para visualizar a distribuição do número de formulários submetidos, excluindo outliers. Primeiro, ele calcula o histograma usando os dados sem outliers e especifica o número de bins desejado. Em seguida, calcula as porcentagens de cada bin em relação ao total de dados e cria um gráfico de barras com essas porcentagens em relação aos bins.
+
+O gráfico resultante mostra a distribuição dos formulários submetidos, destacando a proporção de dados em cada intervalo. Isso permite uma visualização clara da concentração dos formulários submetidos em diferentes faixas de valores.
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/8779ce8a-dfb6-4e7e-b837-4556f1723a2a)
+
+Este código realiza a simulação de Monte Carlo em si. Primeiro, define-se uma função simulacao() que recebe um valor e simplesmente o retorna. Em seguida, cria-se um array e um array de probabilidades associadas a cada valor do array. Depois, define-se o número de simulações desejadas (no caso, serão feitas 100 simulações)
+
+Dentro de um loop, para cada simulação, uma amostra é retirada aleatoriamente do array com base nas probabilidades especificadas. A função simulacao() é então chamada com essa amostra como argumento, e o resultado é armazenado em uma lista de resultados de simulação.
+
+Por fim, um histograma é criado com base nos resultados das simulações.
+
+- Gráficos gerados: 
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/9907cee7-1cfc-478a-9c2a-5dcaef58f53c)
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/030d1ea1-844d-4317-add3-6df120bd63b5)
+
+A observação dos gráficos gerados revela que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições. Analizando as colunas, é possível concluir que a maioria dos usuários enviam pelo menos dois formulários de inscrição. Pode-se supor então que os usuários não sentem uma mensagem de confirmação de inscrição ao preencherem o formulário, preenchendo-o mais de uma vez para talvez "garantirem que de fato se inscreveram". Esse fator pode ser um indício de que o campo do formulário não transmite uma sensação de confirmação ou compromisso, fazendo possivelmente potenciais leads saírem da página ao não identificarem ou sentirem que de fato começaram o processo de integração no curso. Outra hipótese é que de alguma forma um preenchimento de formulário está gerando um resultado duplicado, afetando análises como essa.
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
