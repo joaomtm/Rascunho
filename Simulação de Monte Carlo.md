@@ -48,7 +48,7 @@ As primeiras simulações realizadas são feitas em um escopo macro, não consid
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/81e650c5-6dc1-416c-9827-cb74c92d0221)
 
-Essa primeira parte do código realiza pré-processamento e análise de um DataFrame df com dados de leads da Wizard. Primeiro, converte a coluna 'Became a Lead Date' para o formato datetime. Em seguida, divide os dados em duas partes com base na data '2024-04-18'. Calcula o maior e o menor número de formulários submetidos antes e depois dessa data. A partir desses dados, é possível observar que existem casos de envio de mais de um formulário, sendo que o primeiro período de tempo contém um grande outlier (401).
+Essa primeira parte do código realiza pré-processamento e análise de um DataFrame df com dados de leads da Wizard. Primeiro, converte a coluna 'Became a Lead Date' para o formato datetime. Em seguida, divide os dados em duas partes com base na data '2024-04-18', data em que o botão do Whatssap foi incluído na Landing Page. Calcula o maior e o menor número de formulários submetidos antes e depois dessa data. A partir desses dados, é possível observar que existem casos de envio de mais de um formulário, sendo que o primeiro período de tempo contém um grande outlier (401).
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/6864c368-decf-4d36-9ed0-566c91810969)
 
@@ -78,47 +78,17 @@ Por fim, um histograma é criado com base nos resultados das simulações.
 
 A observação dos gráficos gerados revela que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições. Analizando as colunas, é possível concluir que a maioria dos usuários enviam pelo menos dois formulários de inscrição. Pode-se supor então que os usuários não sentem uma mensagem de confirmação de inscrição ao preencherem o formulário, preenchendo-o mais de uma vez para talvez "garantirem que de fato se inscreveram". Esse fator pode ser um indício de que o campo do formulário não transmite uma sensação de confirmação ou compromisso, fazendo possivelmente potenciais leads saírem da página ao não identificarem ou sentirem que de fato começaram o processo de integração no curso. Outra hipótese é que de alguma forma um preenchimento de formulário está gerando um resultado duplicado, afetando análises como essa.
 
+- Simulação 2: Coluna "Number of Pageviews"
 
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/96cad9c7-b45e-49a0-80f7-7d30bd534e58)
 
+Este trecho de código calcula o maior e o menor valor do número de visualizações de página. É possível perceber que no primeiro período (antes do botão do Whatssap ser aplicado na Landing Page), há outliers (2061).
 
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/cac9842d-d662-4ac0-bfe3-15d48cb1e92d)
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/f6132cdb-211d-4459-9d05-b14a904ef428)
 
 
 
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-- [Documentação do Framework HEART para WizardOn](https://github.com/Inteli-College/2024-1B-T04-SI10-G02/blob/develop/document/Sprint%2001/HEART.md)
 
