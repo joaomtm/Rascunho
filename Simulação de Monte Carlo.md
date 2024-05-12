@@ -138,7 +138,13 @@ Analisando e comparando os gráficos gerados, podemos observar que a distribuiç
 
 As próximas simulações realizadas são feitas em um um período de tempo específico. A data que marca o período é o dia 24/07/2023 ("2023-07-24"), referente a uma das campanhas de marketing da Wizard On que oferecia 50% de desconto na matrícula. O objetivo é analisar o impacto que o formato da landing page teve na conversão de leads durante o período, compreendendo o comportamento dos usuários. Ao fazer essa análise, será possível desenvolver insights e propostas para uma nova Landing Page mais otimizada (teste B).
 
+- Simulação 4: "Número de Seções Após Mudanças"
 
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/5c44eb8a-18fd-4acf-bbe7-d8c0cb8ffd4b)
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/da6133f0-68f5-4f7d-90f7-e8205652e49a)
+
+
+Este trecho de código começa filtrando os dados em dois grupos, antes e depois da data específica que marca mudanças na Landing Page. São calculadas médias e desvios padrão do número de sessões em cada período. Em seguida, uma função é definida para simular o impacto das mudanças nas sessões dos usuários. Essa função gera contribuições aleatórias para UI e velocidade, calcula um ajuste no número de sessões e simula novos números de sessões. Os resultados são ajustados para serem positivos e inteiros, e um histograma é criado para visualizar a distribuição dos números de sessões simuladas após as mudanças. Ele compara as médias antes e depois das mudanças, destacando qualquer impacto significativo. Analisando 
 
 
 
