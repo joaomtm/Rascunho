@@ -4,7 +4,7 @@
 
 [2. Setup (Bibliotecas e Impotação de Dados)](#c2)
 
-[2. Simulações de Monte Carlo](#c3)
+[3. Simulações de Monte Carlo](#c3)
 
 <br>
 
@@ -99,6 +99,8 @@ O código realiza simulações de Monte Carlo com base em um conjunto de probabi
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/a8f1ca5f-23b9-426a-9961-08ca538feacf)
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/fdf81446-9241-4d6e-9b37-1b883b1f6869)
+
+A observação dos gráficos gerados revela que a distribuição aleatória produzida pela simulação segue o mesmo padrão observado no gráfico construído diretamente com os dados originais. Isso confirma a consistência do padrão e das proporções das distribuições.
 
 
 
