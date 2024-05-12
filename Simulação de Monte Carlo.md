@@ -173,9 +173,27 @@ Analisando o gráfico, podemos observar que uma curva normal seria gerada caso a
 
 Essa sexta simulação segue a mesma estrutura da simulação 4. A única diferença de código é que ela retira os outliers calculados a partir do método IQR, identificador de quartis. 
 
+- Gráfico gerado:
+  
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/91e25a18-4bf1-4cbb-a269-9988c954ee81)
 
 Proporcionalmente, a diferença da média antes e depois é semelhante daquela gerada na simulação 4. Assim, as conclusões e insights permanecem os mesmos, apenas reforçando as médias geradas pelo modelo.
+
+
+- Simulação 7: "Número de Seções Após Mudanças (Sem Outliers e Histogramas Separados)"
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/e54cb2f0-0968-4a03-98ec-27594c7ef0f5)
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/0a6aa9e2-451f-4f53-bb2a-bdf3ba23b6fc)
+
+O código dessa simulação de assemelha ao código da simulação 4 ( em sua construção geral) e 6 (aplicando o método IQR para retirar os outliers). A principal diferença e que dois histogramas estão sendo gerados, um para cada período (antes e depois da campanha de marketing selecionada).
+
+- Gráficos gerados:
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/77e226a8-a3e3-4871-85e6-5266c6f6e217)
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/5d0ae622-4dbd-4278-9dac-618af740baed)
+
+Visualizando os histograms de forma separada e não mais por médias (simulação 4 e 6), podemos observar que o número de sessões maiores que 3 na Landing Page diminuiram drasticamente após o surgimento da campanha analisada, a ponto das seções maiores que 3 se tornarem outliers e não serem mais consideradas. Essa informação reforça o insight desenvolvido na simulação 4, de que os usuários estavam tendo menos dúvidas ou receios na hora de se inscrever no curso (reflexo da menor necessidade de acessar site inumeras vezes até se tornanr um lead). Esse fator é atribuido à força da campanha de 50% de desconto, que proporcionou uma maior identificação de valor produto.
 
 
 
