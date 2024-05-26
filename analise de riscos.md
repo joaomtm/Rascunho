@@ -8,18 +8,24 @@ possibilidade de serem falsas. Assim, este documento buscará detalhar esse pote
 
 ## Identificação e Avaliação de Possíveis Riscos
 
-### a. Identificação e Segmentação
-- **Executivos da Pearson:** Essenciais para o alinhamento estratégico, suas perspectivas e suporte são cruciais para o sucesso do projeto. Serão informados sobre o progresso, desafios e sucessos, garantindo sua participação ativa nas decisões críticas.
+Nessa seção será identificado as mudanças feitas na página e os possíveis riscos associados à elas.
 
-- **Equipe de Projeto:** Informações detalhadas e atualizadas são vitais para manter a equipe motivada e alinhada aos objetivos. Serão encorajados a compartilhar insights e feedback. Essa equipe é central para buscar fontes de dados, validar hipóteses e crenças, e facilitar a comunicação entre os diversos times dentro da Pearson. 
+### Remoção do Número de Telefone 
+Tela A: 
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/de705c61-41bc-44fe-b27e-b0b74142c029)
+Tela B: 
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/704a0802-9923-4670-a4ef-b24a78f82b9b)
 
-- **Equipe de Marketing:** Responsáveis pela implementação técnica e curadoria dos dados, precisam demostrar calendário de ofertas para sabermos o que muda ou não.
+Assumimos em nossas hipóteses de que o número de telefone não era mais essencial e não contribuia para a conversão de inscrições e leads. Esse hipóse se baseia principalmente na informação que temos da persona, que são mulheres jovens na faixa de 25 anos. Contudo, mesmo a persona utilizada sendo a pessoa média que usa o serviço, ainda existem os usuários atípicos, que tanto podem ser pessoas bem mais velhas que ainda possuem o costume de ligar para o estabelecimento ou até mesmo pessoas jovens que fortemente preferem fazer ligações quando desejam contratar um serviço. Assim, existe o risco da nova tela B ter menos inscrições e gerar menos leads por excluir um meio de comunição e inscrição. Contudo, esse cenário é altamente improvável (conforme a "We Social" 93,4% dos brasileiros com acesso à internet usam WhatsApp) e de baixo impacto (estamos considerando um usuário que está fora da persona).
 
-- **Equipe de UX:** Devem fornecer manual da marca, juntamente como são responsáveis por garantir que as modificações na página estejam dentro dos padrões da marca.
 
-- **Equipe de Tecnologia:** Terá em mãos um padrão de simulação que poderão rodar outras vezes com outras variáveis.
+###  
 
-> **Nota:** Franqueados e equipe comercial são afetados indiretamente pelo sucesso do projeto e serão informados sobre as melhorias resultantes.
+
+
+
+
+
 
 ### b. Nível de Conhecimento e Interesse
 - **Conhecimento Variado:** Reconhecimento de que o público-alvo pode ter diferentes níveis de entendimento sobre testes A/B e simulação de Monte Carlo, necessitando de comunicações adaptadas para cada segmento.
