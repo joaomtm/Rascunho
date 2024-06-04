@@ -13,10 +13,14 @@
   <img src="https://github.com/joaomtm/Rascunho/assets/99208815/9a79aba1-e097-410e-ae11-f38cbede1b40" alt="image">
 </p>
 
+> Looker Studio Google (Logo)
 
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/e1639553-bbcd-457e-bb26-d71c9ad7c49f)
 
+> Página Inicial do Looker construído pela Pearson
+
+&emsp;&emsp; O Looker construído contempla endereços de site em conjunto, referente à coletânea de todos os sites referem à Wizard On, e endereços de site segmentados, divindo cada "URL" que se refere à Landing Page da Wizard On em um segmento. Com o objetivo de comparar os resultados das telas A e Bs, apenas a seções referentes aos endereços de site segmentos é que serão úteis para essa análise, no caso, a seção "Acessos" e "Eventos" que permitem filtrar o "Page Path" (Endereço da Página). 
 
 
 ### Remoção do Número de Telefone 
