@@ -2,7 +2,7 @@
 
 ## Objetivo 
 
-&emsp;&emsp; 
+&emsp;&emsp; Esta seção da documentação tem como objetivo detalhar o plano proposto para a coleta de resultados do teste A/B. 
 
 ## Identificação e Avaliação de Possíveis Riscos
 
