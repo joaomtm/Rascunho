@@ -5,9 +5,9 @@
 &emsp;&emsp; Este segmento da documentação tem como objetivo detalhar o plano proposto para a coleta de resultados do teste A/B. Quando as telas Bs forem aplicadas no site da Wizard On, diversos dados serão gerados e armazenados. Contudo, é crucial definir quais desses dados de fato representam boas métricas para avaliarmos o desempenho das novas telas propostas. Assim, será desenvolvido um plano para uma minuciosa coleta de resultados que futuramente permitirá uma análise preliminar dessa apuração.
 
 
-## Identificação e Avaliação de Possíveis Riscos
+## Fonte Inicial de Dados, Looker Studio Google
 
-&emsp;&emsp; Nessa seção será identificado as mudanças feitas na página e os possíveis riscos associados à elas. As mudanças da versão mobile e desktop são de extrema semelhança, assim, os riscos associados foram os mesmos.
+&emsp;&emsp; O Looker Studio é uma ferramenta de visualização de dados e criação de relatórios interativos oferecida pelo Google. Para este projeto, a Pearson configurou diretamente o Looker para acessar os dados coletados atualmente pelos endereços de site referentes à Wizard On. Para esta análise preliminar e para o primeiro plano de coleta de resultados, apenas essa fonte primária do Looker será considerada.
 
 ### Remoção do Número de Telefone 
 **Tela A:**
