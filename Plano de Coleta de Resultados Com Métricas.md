@@ -51,14 +51,17 @@ Link para documentação da Matriz Heart: https://github.com/Inteli-College/2024
 - Porcentagem de usuários que entraram no página e interagiram com ela (Seções/Usuários Ativos)
 - Porcentagem de usuários convertidos (Seções/Conversões)
 
-A métrica de Usuário Ativos pode ser relacionado ao **Engajamento** ("M2: Número de interações com elementos interativos na página").
+As métricas Usuário Ativos e Seções/Usuários Ativos podem ser relacionado ao **Engajamento** ("M2: Número de interações com elementos interativos na página.").
 
-A métrica Seções/Conversões pode ser relacionado a **Adoção** ("M1: Número de formulários de inscrição enviados.") e **Task Success** (M1: Taxa de inscrição completa sem assistência.)
-
-A métrica Seções/Usuários Ativos pode ser relacionada a 
+A métrica Seções/Conversões pode ser relacionado a **Adoção** ("M1: Número de formulários de inscrição enviados.") e **Task Success** ("M1: Taxa de inscrição completa sem assistência.").
 
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/f70d2b3a-b935-480e-8335-7b949b0af037)
+
+> Página "Acessos" do Looker
+
+
+
 
 
 
