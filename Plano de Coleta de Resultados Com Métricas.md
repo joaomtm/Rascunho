@@ -44,7 +44,7 @@ Link para documentação da Matriz Heart: https://github.com/Inteli-College/2024
 
 ## Plano de Coleta, Seleção de Métricas
 
-&emsp;&emsp; Na seção "Acessos" três métricas úteis para análises foram identificadas: 
+&emsp;&emsp; Na seção "Acessos" cinco métricas úteis para análise foram identificadas: Sessions (Seções), Conversions (Conversões), Active Users (Usuários Ativos), a razão de Seções por Usuários Ativos e a razão de Seções por Conversões. A partir dessas métricas, podemos identificar quantos usuários exatamente utilizaram cada página do teste A/B (Seções), quantos deles se increveram no curso (Conversões), quantos interagiram com a página (Usuários Ativos), a porcentagem de usuários que entraram no página e interagiram com ela (Seções/Usuários Ativos) e a porcentagem de usuários convertidos (Seções/Conversões). 
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/f70d2b3a-b935-480e-8335-7b949b0af037)
 
