@@ -39,7 +39,13 @@
 
 > Matriz Heart
 
-Link para documentação da Matriz Heart: 
+Link para documentação da Matriz Heart: https://github.com/Inteli-College/2024-1B-T04-SI10-G02/blob/main/document/Sprint%2001/HEART.md
+
+
+## Plano de Coleta, Seleção de Métricas
+
+
+
 
 
 
