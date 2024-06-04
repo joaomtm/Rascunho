@@ -22,7 +22,14 @@
 
 &emsp;&emsp; O Looker desenvolvido organiza os endereços dos sites de duas maneiras: algumas seções agrupam todos os sites relacionados à Wizard On (ex: "Big Picture"), enquanto outra seções segmentam cada URL individualmente. Para comparar efetivamente os resultados das variantes A e Bs das páginas, devemos focar nas seções “Acessos” e “Eventos”. Estas seções nos permitem filtrar pelo “Page Path” (Endereço da Página), recurso essencial para nossa comparação e análise.
 
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/3fc103d3-057f-4f7b-999a-ee98035d0b5a)
 
+> Página "Acessos" do Looker
+
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/89092742-9738-4a0c-8f64-39ed422c72e9)
+
+> Página "Eventos" do Looker
 
 
 
