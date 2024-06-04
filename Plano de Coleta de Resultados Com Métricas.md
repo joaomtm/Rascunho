@@ -61,7 +61,10 @@ A métrica Seções/Conversões pode ser relacionado a **Adoção** ("M1: Númer
 > Página "Acessos" do Looker
 
 
+&emsp;&emsp; Na seção "Eventos", as seguintes métricas foram identificadas: page_view (Vizualização da Página), session_start (início de Sessão), interaction (Interação), user_engagement (Engajamento do Usuário), scroll, click e Click-WhatsApp. A partir dessas métricas será possível identificar:
 
+-Porcentagem e número de pessoas que vizualizaram a página (page_view)
+-Porcentagem e número de pessoas 
 
 
 
