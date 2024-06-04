@@ -77,6 +77,11 @@ A métrica scroll pode ser relacionado à **Task Success** ("M1: Taxa de inscri�
 A métrica Click-WhatsApp pode ser relacionada à **Adoção** ("M1: Número de formulários de inscrição enviados."). O clique no botão WhatsApp indica que os usuários estão tomando medidas para se comunicar ou se inscrever, refletindo a adoção do serviço oferecido.
 
 
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/475457ba-3ccc-4436-8751-4bb1630bed56)
+
+> Página "Eventos" do Looker
+
+
 
 
 
