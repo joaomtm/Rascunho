@@ -44,6 +44,11 @@ Link para documentação da Matriz Heart: https://github.com/Inteli-College/2024
 
 ## Plano de Coleta, Seleção de Métricas
 
+&emsp;&emsp; Na seção "Acessos" três métricas úteis para análises foram identificadas: 
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/f70d2b3a-b935-480e-8335-7b949b0af037)
+
+
 
 
 
