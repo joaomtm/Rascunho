@@ -2,7 +2,8 @@
 
 ## Objetivo 
 
-&emsp;&emsp; Esta seção da documentação tem como objetivo detalhar o plano proposto para a coleta de resultados do teste A/B. 
+&emsp;&emsp; Este segmento da documentação tem como objetivo detalhar o plano proposto para a coleta de resultados do teste A/B. Quando as telas Bs forem aplicadas no site da Wizard On, diversos dados serão gerados e armazenados. Contudo, é crucial definir quais desses dados de fato representam boas métricas para avaliarmos o desempenho das novas telas propostas. Assim, será desenvolvido um plano para uma minuciosa coleta de resultados que permitirá uma análise preliminar dessa apuração.
+
 
 ## Identificação e Avaliação de Possíveis Riscos
 
