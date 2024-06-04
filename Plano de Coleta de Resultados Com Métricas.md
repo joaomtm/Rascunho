@@ -51,9 +51,9 @@ Link para documentação da Matriz Heart: https://github.com/Inteli-College/2024
 - Porcentagem de usuários que entraram no página e interagiram com ela (Seções/Usuários Ativos)
 - Porcentagem de usuários convertidos (Seções/Conversões)
 
-As métricas Usuário Ativos e Seções/Usuários Ativos podem ser relacionado ao **Engajamento** ("M2: Número de interações com elementos interativos na página.").
+As métricas Usuário Ativos e Seções/Usuários Ativos podem ser relacionado ao **Engajamento** ("M2: Número de interações com elementos interativos na página."). Usuários ativos e a razão de seções por usuários ativos medem quantos usuários interagiram com a página, fornecendo uma visão clara do engajamento do público.
 
-A métrica Seções/Conversões pode ser relacionado a **Adoção** ("M1: Número de formulários de inscrição enviados.") e **Task Success** ("M1: Taxa de inscrição completa sem assistência.").
+A métrica Seções/Conversões pode ser relacionado a **Adoção** ("M1: Número de formulários de inscrição enviados.") e **Task Success** ("M1: Taxa de inscrição completa sem assistência."). A razão de seções por conversões mostra a eficácia da página em converter visitas em ações concretas, refletindo tanto a adoção do serviço quanto o sucesso em completar tarefas.
 
 
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/f70d2b3a-b935-480e-8335-7b949b0af037)
@@ -63,8 +63,19 @@ A métrica Seções/Conversões pode ser relacionado a **Adoção** ("M1: Númer
 
 &emsp;&emsp; Na seção "Eventos", as seguintes métricas foram identificadas: page_view (Vizualização da Página), session_start (início de Sessão), interaction (Interação), user_engagement (Engajamento do Usuário), scroll, click e Click-WhatsApp. A partir dessas métricas será possível identificar:
 
--Porcentagem e número de pessoas que vizualizaram a página (page_view)
--Porcentagem e número de pessoas 
+- Porcentagem e número de pessoas que vizualizaram a página (page_view)
+- Porcentagem e número de pessoas que começaram a interagir com a página (session_start e interaction)
+- Porcentagem e número de usuários que interagiram de forma engajada com a página (user_engagement)
+- Porcentagem e número de usuários que "scrolaram" a página (scroll)
+- Porcentagem e número de usuários que clicaram em algum botão da página (click)
+- Porcentagem e número de usuários que clicaram no botão Whatssap (Click-WhatsApp)
+
+As métricas page_view, session_start, interaction, user_engagement e click podem ser relacionado ao **Engajamento** ("M2: Número de interações com elementos interativos na página."). Essas métricas indicam o nível de interação do usuário com a página, mostrando quantas pessoas visualizaram, iniciaram sessões, interagiram e clicaram em elementos, refletindo o engajamento geral.
+
+A métrica scroll pode ser relacionado à **Task Sucess** ("M1: Taxa de inscrição completa sem assistência"). O scroll demonstra que os usuários estão explorando a página completamente, indicando uma busca por informações extras ou ajuda.
+
+A métrica Click-WhatsApp pode ser relaciona à **Adoção** ("M1: Número de formulários de inscrição enviados."). O clique no botão WhatsApp indica que os usuários estão tomando medidas para se comunicar ou se inscrever, refletindo a adoção do serviço oferecido.
+
 
 
 
