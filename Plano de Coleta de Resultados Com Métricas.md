@@ -9,6 +9,16 @@
 
 &emsp;&emsp; O Looker Studio é uma ferramenta de visualização de dados e criação de relatórios interativos oferecida pelo Google. Para este projeto, a Pearson configurou diretamente o Looker para acessar os dados coletados atualmente pelos endereços de site referentes à Wizard On. Para esta análise preliminar e para o primeiro plano de coleta de resultados, apenas essa fonte primária do Looker será considerada.
 
+<p align="center">
+  <img src="https://github.com/joaomtm/Rascunho/assets/99208815/9a79aba1-e097-410e-ae11-f38cbede1b40" alt="image">
+</p>
+
+
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/e1639553-bbcd-457e-bb26-d71c9ad7c49f)
+
+
+
 ### Remoção do Número de Telefone 
 **Tela A:**
 ![image](https://github.com/joaomtm/Rascunho/assets/99208815/de705c61-41bc-44fe-b27e-b0b74142c029)
