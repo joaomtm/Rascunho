@@ -33,7 +33,13 @@
 
 ## Matriz Heart + GSM
 
-&emsp;&emsp; Tendo seu primeiro desenvolvimento na Sprint 1, a Matriz Heart é uma ferramenta utilizada para avaliar e medir a satisfação e o engajamento dos clientes com base em cinco aspectos principais: Happines (Felicidade), Engagement (Engajamento), Adoption (Adoção), Retention (Retenção) e Task Success (Sucesso nas Tarefas). A partir dessas métricas de sucesso, podemos avaliar o desempenho de cada tela e compara-las entre si. 
+&emsp;&emsp; Tendo seu primeiro desenvolvimento na Sprint 1, a Matriz Heart é uma ferramenta utilizada para avaliar e medir a satisfação e o engajamento dos clientes com base em cinco aspectos principais: Happiness (Felicidade), Engagement (Engajamento), Adoption (Adoção), Retention (Retenção) e Task Success (Sucesso nas Tarefas). A partir dessas métricas de sucesso, podemos avaliar o desempenho de cada tela e compará-las entre si. Agora, com o objetivo de aplicar diretamente a Matriz Heart ao projeto, será feito um paralelo das métricas presentes no Looker com as métricas previstas na Matriz. Contudo, já é previsto que nem todas as métricas sejam contempladas no Looker, reservando espaço para dar continuidade a essa análise na Sprint 5, momento em que serão disponibilizados mais dados e com mais detalhes.
+
+![image](https://github.com/joaomtm/Rascunho/assets/99208815/d6d10b5e-c0a6-46c2-bea7-b100be098fa5)
+
+> Matriz Heart
+
+Link para documentação da Matriz Heart: 
 
 
 
