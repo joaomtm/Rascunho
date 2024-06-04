@@ -20,7 +20,13 @@
 
 > Página Inicial do Looker construído pela Pearson
 
-&emsp;&emsp; O Looker construído contempla endereços de site em conjunto, referente à coletânea de todos os sites referem à Wizard On, e endereços de site segmentados, divindo cada "URL" que se refere à Landing Page da Wizard On em um segmento. Com o objetivo de comparar os resultados das telas A e Bs, apenas a seções referentes aos endereços de site segmentos é que serão úteis para essa análise, no caso, a seção "Acessos" e "Eventos" que permitem filtrar o "Page Path" (Endereço da Página). 
+&emsp;&emsp; O Looker desenvolvido organiza os endereços dos sites de duas maneiras: algumas seções agrupam todos os sites relacionados à Wizard On (ex: "Big Picture"), enquanto outra seções segmentam cada URL individualmente. Para comparar efetivamente os resultados das variantes A e Bs das páginas, devemos focar nas seções “Acessos” e “Eventos”. Estas seções nos permitem filtrar pelo “Page Path” (Endereço da Página), recurso essencial para nossa comparação e análise.
+
+
+
+
+
+
 
 
 ### Remoção do Número de Telefone 
